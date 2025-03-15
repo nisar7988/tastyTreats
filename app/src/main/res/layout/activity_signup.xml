@@ -63,7 +63,7 @@
                 android:background="@drawable/edit_text_background"
                 android:drawableRight="@drawable/person"
                 android:ems="10"
-                android:hint="Tên người dùng"
+                android:hint="Username"
                 android:inputType="text"
                 android:paddingStart="30dp"
 
@@ -100,7 +100,7 @@
                 android:background="@drawable/edit_text_background"
                 android:drawableRight="@drawable/lockpass"
                 android:ems="10"
-                android:hint="Mật khẩu"
+                android:hint="password"
                 android:inputType="textPassword"
                 android:paddingStart="30dp"
                 android:paddingEnd="30dp"
@@ -118,7 +118,7 @@
                 android:background="@drawable/edit_text_background"
                 android:drawableRight="@drawable/lockpass"
                 android:ems="10"
-                android:hint="Nhập lại mật khẩu"
+                android:hint="Re-enter Password"
                 android:inputType="textPassword"
                 android:paddingStart="30dp"
                 android:paddingEnd="30dp"
@@ -134,7 +134,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="22dp"
                 android:background="@drawable/background_login"
-                android:text="Đăng kí"
+                android:text="Sign up"
                 android:textColor="@color/white"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -144,7 +144,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="30dp"
-                android:text="Nếu đã có tài khoản? Login"
+                android:text="If you already have an account? Login"
                 android:textAlignment="center"
                 android:textSize="18sp" />
 

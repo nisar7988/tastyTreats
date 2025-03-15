@@ -15,11 +15,8 @@
         <item>7.More</item>
     </string-array>
 
-
     <string-array name="spinner_options">
-        <item>Chấp nhận</item>
-        <item>Hủy</item>
+        <item>Accept</item>
+        <item>Cancel</item>
     </string-array>
-
-
 </resources>

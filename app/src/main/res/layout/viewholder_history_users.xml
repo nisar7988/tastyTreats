@@ -130,7 +130,7 @@
                 android:background="@drawable/edit_text_background"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                android:text="Chưa xác nhận"
+                android:text="Not confirmed"
                 android:textColor="@android:color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -146,7 +146,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="48dp"
                 android:background="@drawable/orange_button"
-                android:text="Chi tiết"
+                android:text="Details"
                 android:textColor="@color/white"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/ID" />

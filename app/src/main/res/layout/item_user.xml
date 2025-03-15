@@ -38,7 +38,7 @@
         android:id="@+id/deleteButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Xóa"
+        android:text="Delete"
         android:textColor="@android:color/white"
 
    android:background="@drawable/background_login"

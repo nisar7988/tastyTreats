@@ -38,7 +38,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
                     android:layout_marginTop="4dp"
-                    android:text="Xin chào"
+                    android:text="Hello"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -72,7 +72,7 @@
                     android:layout_marginStart="25dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginBottom="1dp"
-                    android:text="Ẩn danh"
+                    android:text="Anonymous"
                     android:textSize="20dp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -115,7 +115,7 @@
                         android:layout_weight="1"
                         android:background="@drawable/grey_background"
                         android:ems="10"
-                        android:hint="Tìm...."
+                        android:hint="Search..."
                         android:imeOptions="actionSearch"
                         android:inputType="text"
                         android:padding="8dp"
@@ -158,7 +158,7 @@
 <!--                    android:id="@+id/textView42"-->
 <!--                    android:layout_width="wrap_content"-->
 <!--                    android:layout_height="wrap_content"-->
-<!--                    android:text="Khuyến mãi"-->
+<!--                    android:text="Promotions"-->
 <!--                    android:textSize="22sp"-->
 <!--                    app:layout_constraintBottom_toBottomOf="parent"-->
 <!--                    app:layout_constraintEnd_toEndOf="parent"-->
@@ -295,7 +295,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Món ăn nổi bật"
+                    android:text="Featured Dishes"
                     android:textColor="@color/black"
                     android:textSize="22dp"
                     android:textStyle="bold" />
@@ -348,7 +348,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_weight="1"
-                android:text="Danh mục sản phẩm"
+                android:text="Product Categories"
                 android:textColor="@color/black"
                 android:textSize="22dp"
                 android:textStyle="bold" />
@@ -445,7 +445,7 @@
                             android:id="@+id/homeTxt"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Chính"
+                            android:text="Home"
                             android:textAlignment="center" />
 
                     </LinearLayout>
@@ -469,7 +469,7 @@
                             android:id="@+id/profileTxt"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Cá nhân"
+                            android:text="Profile"
                             android:textAlignment="center" />
 
                     </LinearLayout>
@@ -515,7 +515,7 @@
                             android:id="@+id/settingTxt"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Cài đặt"
+                            android:text="Settings"
                             android:textAlignment="center" />
                     </LinearLayout>
                 </LinearLayout>
