@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SANFood</string>
+    <string name="app_name">TastyTreats</string>
     <string name="avatar">Avatar</string>
     <string name="picturefood">Food</string>
     <string name="chatbot">Chatbot</string>

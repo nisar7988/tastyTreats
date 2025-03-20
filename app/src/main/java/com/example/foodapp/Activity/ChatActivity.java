@@ -144,7 +144,7 @@ public class ChatActivity extends AppCompatActivity {
                             // Thêm phản hồi từ API vào RecyclerView
                             addResponse(result.toString().trim());
                         } else {
-                            addResponse("Không tìm thấy thực thể.");
+                            addResponse("Entity not found.");
                         }
                     } catch (JSONException e) {
                         addResponse("Lỗi: " + e.getMessage());

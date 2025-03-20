@@ -111,7 +111,7 @@ public class LovefoodActivity extends AppCompatActivity {
                                     @Override
                                     public void onSuccess(Void aVoid) {
                                         // Xóa thành công, thông báo cho người dùng và cập nhật danh sách hiển thị
-                                        Toast.makeText(LovefoodActivity.this, "Món ăn đã được xóa khỏi danh sách yêu thích", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(LovefoodActivity.this, "Food item has been removed from favorites", Toast.LENGTH_SHORT).show();
                                         // Xóa món ăn khỏi danh sách hiển thị
                                         lovefoodList.remove(itemToDelete);
                                         adapter.notifyDataSetChanged();
@@ -121,14 +121,14 @@ public class LovefoodActivity extends AppCompatActivity {
                                     @Override
                                     public void onFailure(@NonNull Exception e) {
                                         // Xảy ra lỗi trong quá trình xóa, thông báo cho người dùng
-                                        Toast.makeText(LovefoodActivity.this, "Đã xảy ra lỗi khi xóa món ăn khỏi danh sách yêu thích", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(LovefoodActivity.this, "Error occurred while removing food item from favorites", Toast.LENGTH_SHORT).show();
                                     }
                                 });
                         return; // Đã tìm thấy và xử lý, không cần tìm kiếm nữa
                     }
                 }
                 // Không tìm thấy món ăn trong danh sách yêu thích của người dùng
-                Toast.makeText(LovefoodActivity.this, "Không tìm thấy món ăn trong danh sách yêu thích", Toast.LENGTH_SHORT).show();
+                Toast.makeText(LovefoodActivity.this, "Food item not found in favorites", Toast.LENGTH_SHORT).show();
             }
 
             @Override

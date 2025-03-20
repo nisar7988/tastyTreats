@@ -69,7 +69,7 @@ public class SignupActivity extends BaseActivity {
                                                 startActivity(new Intent(SignupActivity.this, LoginActivity.class));
                                             } else {
                                                 Log.e(TAG, "Đăng ký thất bại", registrationTask.getException());
-                                                Toast.makeText(SignupActivity.this, "Đăng ký thất bại", Toast.LENGTH_SHORT).show();
+                                                Toast.makeText(SignupActivity.this, "An error occurred, please try again later", Toast.LENGTH_SHORT).show();
                                             }
                                         });
                             }
