@@ -83,10 +83,10 @@ public class OrderHistoryAdapter extends RecyclerView.Adapter<OrderHistoryAdapte
                     if (status != null) {
                         holder.cancelButton.setText(status);
                     } else {
-                        holder.cancelButton.setText("Chưa xác nhận");
+                        holder.cancelButton.setText("Not confirmed");
                     }
                 } else {
-                    holder.cancelButton.setText("Chưa xác nhận");
+                    holder.cancelButton.setText("Not confirmed");
                 }
             }
 

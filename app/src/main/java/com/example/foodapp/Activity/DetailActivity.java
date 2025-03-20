@@ -88,7 +88,7 @@ public class DetailActivity extends BaseActivity {
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
                 // Xử lý lỗi khi lấy dữ liệu từ Firebase
-                Toast.makeText(DetailActivity.this, "Có lỗi xảy ra khi lấy bình luận", Toast.LENGTH_SHORT).show();
+                Toast.makeText(DetailActivity.this, "Error occurred while loading comments", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -142,7 +142,7 @@ public class DetailActivity extends BaseActivity {
             if (!commentText.isEmpty()) {
                 saveComment(commentText);
             } else {
-                Toast.makeText(DetailActivity.this, "Vui lòng nhập bình luận", Toast.LENGTH_SHORT).show();
+                Toast.makeText(DetailActivity.this, "Please enter a comment", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -183,7 +183,7 @@ public class DetailActivity extends BaseActivity {
 
                 if (isExist) {
                     // Món ăn đã tồn tại trong danh sách yêu thích của người dùng
-                    Toast.makeText(DetailActivity.this, "Món ăn đã được thêm vào yêu thích rồi", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DetailActivity.this, "Food is already in favorites", Toast.LENGTH_SHORT).show();
                 } else {
                     // Món ăn chưa tồn tại trong danh sách yêu thích của người dùng, tiến hành thêm mới
                     // Tạo ID mới cho món ăn yêu thích
@@ -200,9 +200,9 @@ public class DetailActivity extends BaseActivity {
                     // Đẩy dữ liệu vào Realtime Database
                     if (lovefoodId != null) {
                         lovefoodRef.child(lovefoodId).setValue(lovefood);
-                        Toast.makeText(DetailActivity.this, "Đã thêm vào yêu thích", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DetailActivity.this, "Added to favorites", Toast.LENGTH_SHORT).show();
                     } else {
-                        Toast.makeText(DetailActivity.this, "Lỗi khi thêm vào yêu thích", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(DetailActivity.this, "Error adding to favorites", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
@@ -210,7 +210,7 @@ public class DetailActivity extends BaseActivity {
             @Override
             public void onCancelled(DatabaseError databaseError) {
                 // Xử lý khi có lỗi xảy ra
-                Toast.makeText(DetailActivity.this, "Có lỗi xảy ra", Toast.LENGTH_SHORT).show();
+                Toast.makeText(DetailActivity.this, "An error occurred", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -233,10 +233,10 @@ public class DetailActivity extends BaseActivity {
         // Đẩy dữ liệu vào Realtime Database
         if (commentId != null) {
             commentRef.child(commentId).setValue(comment);
-            Toast.makeText(DetailActivity.this, "Bình luận đã được thêm", Toast.LENGTH_SHORT).show();
+            Toast.makeText(DetailActivity.this, "Comment has been added", Toast.LENGTH_SHORT).show();
             editTextComment.setText(""); // Xóa nội dung của EditText sau khi gửi bình luận
         } else {
-            Toast.makeText(DetailActivity.this, "Lỗi khi thêm bình luận", Toast.LENGTH_SHORT).show();
+            Toast.makeText(DetailActivity.this, "Error adding comment", Toast.LENGTH_SHORT).show();
         }
     }
 }

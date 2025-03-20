@@ -83,7 +83,7 @@ public class MainActivity extends BaseActivity {
     private void loadUserName() {
         String uid = mAuth.getCurrentUser().getUid();
         if (uid.isEmpty()){
-          binding.Nameuser.setText("Ẩn danh");
+          binding.Nameuser.setText("Anonymous");
         }else{
         DatabaseReference userRef = Reference.child("users").child(uid);
 
@@ -185,7 +185,7 @@ public class MainActivity extends BaseActivity {
             intent.putExtra("isSearch", true);
             startActivity(intent);
         } else{
-            Toast.makeText(this, "vui long nhap hon 5 ki tu", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please enter more than 5 characters", Toast.LENGTH_SHORT).show();
         }
     }
     private String capitalizeFirstLetter(String input) {

@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="18dp"
-                android:text="Giỏ hàng"
+                android:text="Shopping Cart"
                 android:textAlignment="center"
                 android:textColor="@color/orange"
                 android:textSize="24sp"
@@ -62,7 +62,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/grey_background"
                     android:ems="10"
-                    android:hint="Nhập mã voucher"
+                    android:hint="Enter voucher code"
                     android:inputType="text"
 
                     android:textAlignment="center"
@@ -78,7 +78,7 @@
 
                     android:layout_weight="1"
                     android:background="@drawable/background_login"
-                    android:text="Áp dụng"
+                    android:text="Apply"
                     android:textColor="@color/white" />
             </LinearLayout>
 
@@ -87,7 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Tổng đơn hàng"
+                android:text="Order Total"
                 android:textSize="18sp"
                 android:textStyle="bold"
 
@@ -106,7 +106,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="Giá các món ăn"
+                    android:text="Food Prices"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -116,7 +116,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Phí vận chuyển"
+                    android:text="Shipping Fee"
                     app:layout_constraintStart_toStartOf="@+id/textView17"
                     app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
@@ -178,7 +178,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Tổng"
+                    android:text="Total"
                     app:layout_constraintStart_toStartOf="@+id/textView20"
                     app:layout_constraintTop_toBottomOf="@+id/view4" />
 
@@ -203,7 +203,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/background_login"
-                android:text="Mua hàng"
+                android:text="Buy"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -237,7 +237,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="Điền thông tin để đặt hàng"
+                            android:text="Fill in information to place order"
                             android:textColor="@color/orange"
                             android:textSize="25dp"
                             android:textStyle="bold" />
@@ -262,7 +262,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="8dp"
-                                android:text="Tên người mua"
+                                android:text="Buyer's Name"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 app:layout_constraintBottom_toTopOf="@+id/editTextName"
@@ -278,7 +278,7 @@
                                 android:layout_marginTop="8dp"
                                 android:background="@drawable/rounded_edit_text"
                                 android:ems="10"
-                                android:hint="Tên"
+                                android:hint="Name"
                                 android:inputType="text"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
@@ -326,7 +326,7 @@
                                 android:id="@+id/textView29"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Địa chỉ giao hàng"
+                                android:text="Delivery Address"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -341,7 +341,7 @@
                                 android:layout_marginTop="8dp"
                                 android:background="@drawable/rounded_edit_text"
                                 android:ems="10"
-                                android:hint="Địa chỉ"
+                                android:hint="Address"
                                 android:inputType="text"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
@@ -357,7 +357,7 @@
                                 android:id="@+id/textView30"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Số điện thoại"
+                                android:text="Phone Number"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 app:layout_constraintEnd_toEndOf="parent"
@@ -372,7 +372,7 @@
                                 android:layout_marginTop="8dp"
                                 android:background="@drawable/rounded_edit_text"
                                 android:ems="10"
-                                android:hint="Số điện.."
+                                android:hint="Phone number"
                                 android:inputType="text"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
@@ -393,7 +393,7 @@
                                 android:drawableEnd="@drawable/fastdelivery"
                                 android:drawableTint="@color/orange"
                                 android:paddingEnd="8dp"
-                                android:text="Thanh toán khi nhận hàng"
+                                android:text="Cash on Delivery"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
@@ -406,7 +406,7 @@
                                 android:drawableEnd="@drawable/creditcard"
                                 android:drawableTint="@color/orange"
                                 android:paddingEnd="8dp"
-                                android:text="Thanh toán online"
+                                android:text="Online Payment"
 
                                 app:layout_constraintEnd_toEndOf="@+id/checkbox1"
                                 app:layout_constraintHorizontal_bias="0.0"
@@ -430,7 +430,7 @@
                             android:layout_width="149dp"
                             android:layout_height="38dp"
                             android:background="@drawable/background_login"
-                            android:text="Hoàn tất đặt hàng"
+                            android:text="Complete Order"
 
                             android:textColor="@color/white"
                             android:textSize="16sp"

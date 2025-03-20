@@ -69,7 +69,7 @@ public class ResponseAdapter extends RecyclerView.Adapter<ResponseAdapter.ViewHo
                 if (!TextUtils.isEmpty(responseText)) {
                     sendReplyToFirebase(v.getContext(), responseId, responseText);
                 } else {
-                    Toast.makeText(v.getContext(), "Nhập nội dung phản hồi trước khi gửi", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(v.getContext(), "Please enter response content before sending", Toast.LENGTH_SHORT).show();
                 }
             }
 
@@ -82,13 +82,13 @@ public class ResponseAdapter extends RecyclerView.Adapter<ResponseAdapter.ViewHo
                         .addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void aVoid) {
-                                Toast.makeText(context, "Phản hồi đã được gửi", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, "Response has been sent", Toast.LENGTH_SHORT).show();
                             }
                         })
                         .addOnFailureListener(new OnFailureListener() {
                             @Override
                             public void onFailure(@NonNull Exception e) {
-                                Toast.makeText(context, "Gửi phản hồi thất bại", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, "Failed to send response", Toast.LENGTH_SHORT).show();
                             }
                         });
             }

@@ -295,7 +295,7 @@
             android:background="@drawable/background_login"
             android:drawableStart="@drawable/cart1"
             android:paddingStart="16sp"
-            android:text="Thêm vào giỏ hàng"
+            android:text="Add to Cart"
             android:textColor="@color/white"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -307,7 +307,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:text="Tổng tiền"
+            android:text="Total Price"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/addBtn" />
 
